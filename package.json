@@ -1,0 +1,19 @@
+{
+  "name": "@deprecatedluxas/jsontoliteral",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "bin": {
+    "@deprecatedluxas/jsontoliteral": "src/index.js",
+    "jsontoliteral": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lucas Norgaard <lucasnrgaard@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "1.2.5"
+  }
+}
