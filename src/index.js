@@ -7,8 +7,8 @@ const run = async () => {
         console.log(`Path ${argv._[0]} is not a valid file.`)
         return;
     }
-    var fileContent = fs.readFileSync(argv._[0], "utf8")
-    var converter = new Converter(fileContent);
+    const fileContent = fs.readFileSync(argv._[0], "utf8");
+    const converter = new Converter(fileContent);
     console.log(converter.convertToLiterals())
 }
 
